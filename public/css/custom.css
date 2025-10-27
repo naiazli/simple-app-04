@@ -1,0 +1,41 @@
+body.login-page {
+    background-image: url('/images/wallpaper.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.login-logo-placeholder {
+    position: absolute;
+    top: calc(50% - 250px);
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    z-index: 10;
+}
+
+.login-box {
+    margin-top: 50px;
+}
+
+.login-box .card {
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    border: none;
+}
+
+.dark-mode .card {
+    background-color: #343a40;
+    color: #fff;
+}
+
+.dark-mode .table {
+    color: #fff;
+}
+
+.dark-mode .form-control {
+    background-color: #495057;
+    color: #fff;
+    border-color: #6c757d;
+}
